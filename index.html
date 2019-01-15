@@ -1,0 +1,79 @@
+<!DOCTYPE>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link href="https://twitter.com/sachinfab/normalize.css" rel="stylesheet">
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+<title>Sachin's Blog</title>
+<style>
+header{
+  text-align: center;
+  background: url("http://eragenx.com/wp-content/uploads/2016/08/Rishikesh.jpg");
+background-size: cover;
+color: white;
+}
+ul {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+img{
+  width: 150px;
+  margin: 40px 0px 0px 0px;
+  border: 7px solid white;
+  border-radius: 20px
+
+}
+a {
+  color: white;
+}
+h1 {
+  font-size: 70px;
+}
+@media (max-width: 500px) {
+h1{
+  font-size: 36px;
+  }
+  li {
+    display: block;
+    padding: 5px;
+  }
+}
+
+</style>
+</head>
+
+<body>
+  <header>
+<img src="https://pbs.twimg.com/profile_images/1007577461649915904/5nVOA-SR_400x400.jpg">
+<h1>Sachin's Blog</h1>
+<ul>
+    <li><a href="https://www.facebook.com/profile.php?id=100025089758248&lst=100025089758248%3A100025089758248%3A1529224594">About Me</li>
+    <li><a href="#">Learning From Jan</li>
+</ul>
+
+</header>
+
+<h2 style="color:black;">Lorem ipsum</h2>
+<p style="color:black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id pellentesque dui. Vivamus mollis lacus ut lorem viverra molestie. Pellentesque quam lectus, dictum eu est ut, commodo mollis libero. Etiam et urna ut erat eleifend convallis. Nulla eget felis et tellus cursus fringilla eu sit amet nibh. Nam vitae auctor tellus. Vivamus auctor felis vel mi congue, maximus iaculis arcu vestibulum. Fusce dictum felis at ultrices porttitor.</p>
+<button>Like</button>
+
+<h3 style="color:black;">Lorem ipsum</h3>
+<p style="color:black">Nullam porta nisi lorem, id sagittis nulla accumsan quis. Proin condimentum hendrerit ultricies. Nunc tempus pellentesque consequat. Aliquam vitae faucibus diam, at congue ipsum. Morbi faucibus lectus maximus eleifend feugiat. Duis ultrices dui lobortis, ornare nunc sed, rhoncus purus. Pellentesque placerat tempus purus, non pharetra mi porttitor mollis.</p>
+<button>Like</button>
+
+<h4 style="color:black;">TEST</h4>
+<script>
+$("button").on("click", function() {
+  alert("Thanks !")
+});
+$("h4").on("click", function() {
+  alert("TEST WAS CLICKED ON!")
+});
+</script>
+</body>
